@@ -1,3 +1,3 @@
 git add .
-git commit -m "Correccion Ejercicio02"
+git commit -m "Manejo de archivos"
 git push

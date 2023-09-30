@@ -1,8 +1,10 @@
 package main
 
 import (
-	"github.com/cursogo/ejercicios"
 	// "fmt"
+
+	"github.com/cursogo/files"
+	// "github.com/cursogo/ejercicios"
 	// "github.com/cursogo/teclado"
 	// "github.com/cursogo/variables"
 	// "github.com/cursogo/iteraciones"
@@ -35,5 +37,9 @@ func main() {
 
 	// iteraciones.Iterar()
 
-	ejercicios.MostrarTabla()
+	// fmt.Println(ejercicios.MostrarTabla())
+	// files.GrabarTabla()
+
+	// files.SumaTabla()
+	files.LeoArchivo()
 }
