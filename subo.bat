@@ -1,3 +1,3 @@
 git add .
-git commit -m "Funcionen anónimas y clousures"
+git commit -m "Recursión"
 git push
