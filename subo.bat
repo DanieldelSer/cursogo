@@ -1,3 +1,3 @@
 git add .
-git commit -m "Manejo de archivos"
+git commit -m "Funcionen anónimas y clousures"
 git push

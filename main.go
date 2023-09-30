@@ -3,7 +3,8 @@ package main
 import (
 	// "fmt"
 
-	"github.com/cursogo/files"
+	"github.com/cursogo/funciones"
+	// "github.com/cursogo/files"
 	// "github.com/cursogo/ejercicios"
 	// "github.com/cursogo/teclado"
 	// "github.com/cursogo/variables"
@@ -41,5 +42,8 @@ func main() {
 	// files.GrabarTabla()
 
 	// files.SumaTabla()
-	files.LeoArchivo()
+	// files.LeoArchivo()
+
+	// funciones.Calculos()
+	funciones.LlamarClosure()
 }
