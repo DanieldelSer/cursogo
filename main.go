@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"runtime"
+
+	"github.com/cursogo/ejercicios"
 	// "github.com/cursogo/variables"
 )
 
@@ -24,4 +26,8 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 	}
+
+	numero, texto := ejercicios.ConvertirAEntero("101")
+	fmt.Println(numero, texto)
+	fmt.Println(ejercicios.ConvertirAEntero("101"))
 }
