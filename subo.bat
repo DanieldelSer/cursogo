@@ -1,3 +1,3 @@
 git add .
-git commit -m "Mostrar y aceptar datos"
+git commit -m "Ejercicio02"
 git push

@@ -1,9 +1,11 @@
 package main
 
 import (
-	// "github.com/cursogo/ejercicios"
-	"github.com/cursogo/teclado"
+	"github.com/cursogo/ejercicios"
+	// "fmt"
+	// "github.com/cursogo/teclado"
 	// "github.com/cursogo/variables"
+	// "github.com/cursogo/iteraciones"
 )
 
 func main() {
@@ -29,5 +31,9 @@ func main() {
 	// fmt.Println(numero, texto)
 	// fmt.Println(ejercicios.ConvertirAEntero("101"))
 
-	teclado.IngresosNumeros()
+	// teclado.IngresosNumeros()
+
+	// iteraciones.Iterar()
+
+	ejercicios.MostrarTabla()
 }
