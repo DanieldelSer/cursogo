@@ -15,7 +15,7 @@ func MostrarMapas() {
 		"Barcelona":   39,
 		"Real Madrid": 38,
 		"Sevilla":     37,
-		"At.Madrid":   30,
+		"At. Madrid":  30,
 	}
 
 	fmt.Println(campeonato)

@@ -1,3 +1,3 @@
 git add .
-git commit -m "Mapas"
+git commit -m "Estructuras(POO)"
 git push

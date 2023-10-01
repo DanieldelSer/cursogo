@@ -3,7 +3,8 @@ package main
 import (
 	// "fmt"
 
-	"github.com/cursogo/mapas"
+	"github.com/cursogo/users"
+	// "github.com/cursogo/mapas"
 	// "github.com/cursogo/arreglos_slices"
 	// "github.com/cursogo/funciones"
 	// "github.com/cursogo/files"
@@ -53,5 +54,7 @@ func main() {
 
 	// arreglos_slices.Capacidad()
 
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+
+	users.AltaUsuario()
 }
