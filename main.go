@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/cursogo/webserver"
+	"github.com/cursogo/middleware"
+	// "github.com/cursogo/webserver"
 	// "github.com/cursogo/goroutines"
 	// "github.com/cursogo/defer_panic"
 	// e "github.com/cursogo/ejer_interfaces"
@@ -77,5 +78,7 @@ func main() {
 	// }()
 	// fmt.Println("Estoy aqui")
 
-	webserver.MiWebServer()
+	// webserver.MiWebServer()
+
+	middleware.MiMiddleware()
 }
