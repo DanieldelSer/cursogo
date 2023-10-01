@@ -1,3 +1,3 @@
 git add .
-git commit -m "Estructuras(POO)"
+git commit -m "Interfaces"
 git push

@@ -3,7 +3,9 @@ package main
 import (
 	// "fmt"
 
-	"github.com/cursogo/users"
+	e "github.com/cursogo/ejer_interfaces"
+	"github.com/cursogo/modelos"
+	// "github.com/cursogo/users"
 	// "github.com/cursogo/mapas"
 	// "github.com/cursogo/arreglos_slices"
 	// "github.com/cursogo/funciones"
@@ -56,5 +58,11 @@ func main() {
 
 	// mapas.MostrarMapas()
 
-	users.AltaUsuario()
+	// users.AltaUsuario()
+
+	Daniel := new(modelos.Hombre)
+	e.HumanosRespirando(Daniel)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
 }
