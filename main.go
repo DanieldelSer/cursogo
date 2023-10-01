@@ -3,7 +3,8 @@ package main
 import (
 	// "fmt"
 
-	"github.com/cursogo/funciones"
+	"github.com/cursogo/arreglos_slices"
+	// "github.com/cursogo/funciones"
 	// "github.com/cursogo/files"
 	// "github.com/cursogo/ejercicios"
 	// "github.com/cursogo/teclado"
@@ -47,5 +48,7 @@ func main() {
 	// funciones.Calculos()
 	// funciones.LlamarClosure()
 
-	funciones.Exponencia(2)
+	// funciones.Exponencia(2)
+
+	arreglos_slices.Capacidad()
 }
