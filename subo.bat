@@ -1,3 +1,3 @@
 git add .
-git commit -m "Defer Panic & Recover"
+git commit -m "Go Routines asincronia - promesas - channels"
 git push

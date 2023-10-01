@@ -2,7 +2,10 @@ package main
 
 import (
 	// "fmt"
-	"github.com/cursogo/defer_panic"
+	"fmt"
+
+	"github.com/cursogo/goroutines"
+	// "github.com/cursogo/defer_panic"
 	// e "github.com/cursogo/ejer_interfaces"
 	// "github.com/cursogo/modelos"
 	// "github.com/cursogo/users"
@@ -67,5 +70,12 @@ func main() {
 	// e.HumanosRespirando(Maria)
 
 	// defer_panic.VemosDefer()
-	defer_panic.EjemploPanic()
+	// defer_panic.EjemploPanic()
+
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLento("Daniel del Ser", canal1)
+	defer func() {
+		<-canal1
+	}()
+	fmt.Println("Estoy aqui")
 }
