@@ -1,10 +1,8 @@
 package main
 
 import (
-	// "fmt"
-	"fmt"
-
-	"github.com/cursogo/goroutines"
+	"github.com/cursogo/webserver"
+	// "github.com/cursogo/goroutines"
 	// "github.com/cursogo/defer_panic"
 	// e "github.com/cursogo/ejer_interfaces"
 	// "github.com/cursogo/modelos"
@@ -72,10 +70,12 @@ func main() {
 	// defer_panic.VemosDefer()
 	// defer_panic.EjemploPanic()
 
-	canal1 := make(chan bool)
-	go goroutines.MiNombreLento("Daniel del Ser", canal1)
-	defer func() {
-		<-canal1
-	}()
-	fmt.Println("Estoy aqui")
+	// canal1 := make(chan bool)
+	// go goroutines.MiNombreLento("Daniel del Ser", canal1)
+	// defer func() {
+	// 	<-canal1
+	// }()
+	// fmt.Println("Estoy aqui")
+
+	webserver.MiWebServer()
 }
