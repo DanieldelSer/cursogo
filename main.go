@@ -3,7 +3,8 @@ package main
 import (
 	// "fmt"
 
-	"github.com/cursogo/arreglos_slices"
+	"github.com/cursogo/mapas"
+	// "github.com/cursogo/arreglos_slices"
 	// "github.com/cursogo/funciones"
 	// "github.com/cursogo/files"
 	// "github.com/cursogo/ejercicios"
@@ -50,5 +51,7 @@ func main() {
 
 	// funciones.Exponencia(2)
 
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+
+	mapas.MostrarMapas()
 }
