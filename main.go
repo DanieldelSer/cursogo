@@ -2,9 +2,9 @@ package main
 
 import (
 	// "fmt"
-
-	e "github.com/cursogo/ejer_interfaces"
-	"github.com/cursogo/modelos"
+	"github.com/cursogo/defer_panic"
+	// e "github.com/cursogo/ejer_interfaces"
+	// "github.com/cursogo/modelos"
 	// "github.com/cursogo/users"
 	// "github.com/cursogo/mapas"
 	// "github.com/cursogo/arreglos_slices"
@@ -60,9 +60,12 @@ func main() {
 
 	// users.AltaUsuario()
 
-	Daniel := new(modelos.Hombre)
-	e.HumanosRespirando(Daniel)
+	// Daniel := new(modelos.Hombre)
+	// e.HumanosRespirando(Daniel)
 
-	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
+	// Maria := new(modelos.Mujer)
+	// e.HumanosRespirando(Maria)
+
+	// defer_panic.VemosDefer()
+	defer_panic.EjemploPanic()
 }
